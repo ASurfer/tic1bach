@@ -1,2 +1,10 @@
 <?php
     for ($a=0; $a<90; $a=$a+1){
+   {    echo "Grados"
+        echo $a;
+        echo " , el seno es:";  
+        echo sin ($a*pi()/180);
+        echo cos ($a*pi()/180);
+   }
+   }
+?>
